@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+   }
+   
+   
+   /* Navigation Bar */
+   nav {
+    background-color: #00695c;
+    padding: 1rem 0;
+   }
+   
+   
+   .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   }
+   
+   
+   .navbar li {
+    margin: 0 20px;
+   }
+   
+   
+   .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background 0.3s;
+   }
+   
+   
+   .navbar a:hover,
+   .navbar a.active {
+    background-color: #004d40;
+   }
+   
+   
+   /* Hero Section */
+   .hero {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: #e0f2f1;
+    color: #004d40;
+   }
+   
+   
+   .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+   }
+   
+   
+   .hero p {
+    font-size: 1.2rem;
+   }
+   
+   
+   /* Icon Grid */
+   .icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+   }
+   
+   
+   .icon-box {
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+   }
+   
+   
+   .icon-box img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+   }
+   
+   
+   .icon-box span {
+    font-size: 1.1rem;
+    font-weight: 600;
+   }
+   
+   
+   .icon-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   }
+   
+   
+   
+   
+   .island-container {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+   }
+   
+   
+   .island-container img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+   
+   
+   
+   /* Responsive text sizes */
+   @media (max-width: 600px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+   
+   
+    .hero p {
+      font-size: 1rem;
+    }
+   
+   
+   
+   
+   }
+   
+   
+   
+   
